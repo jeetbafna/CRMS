@@ -10,23 +10,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
 
 
         <TextView
+            android:id="@+id/textViewUserEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/textViewUserEmail"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:text="Helpline numbers"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="phone"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="9167126123"
+            android:textColor="@color/altColor" />
 
         <Button
+            android:id="@+id/buttonLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Logout"
-            android:id="@+id/buttonLogout"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:text="Logout" />
     </LinearLayout>
 
 </RelativeLayout>
