@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "245700362061",
+    "firebase_url": "https://crms-fd844.firebaseio.com",
+    "project_id": "crms-fd844",
+    "storage_bucket": "crms-fd844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245700362061:android:171dfe3ed1042900",
+        "android_client_info": {
+          "package_name": "com.example.admin.crms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245700362061-2f49l2d0ido6l2ei04v47vmjo1plaqk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADq7K1ckSGazcOvDDpXhSvYr6qvs6a_aE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
